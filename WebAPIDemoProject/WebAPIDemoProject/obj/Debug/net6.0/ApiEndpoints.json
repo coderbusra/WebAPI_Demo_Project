@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "WebAPIDemoProject.Controllers.BasketController",
+    "Method": "Add",
+    "RelativePath": "api/Basket/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basket",
+        "Type": "WebAPIDemoProject.Model.Basket",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPIDemoProject.Controllers.BasketController",
+    "Method": "Delete",
+    "RelativePath": "api/Basket/Delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPIDemoProject.Controllers.BasketController",
+    "Method": "GetList",
+    "RelativePath": "api/Basket/GetList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPIDemoProject.Controllers.MapperController",
+    "Method": "Post",
+    "RelativePath": "api/Mapper",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDTOs",
+        "Type": "System.Collections.Generic.List\u00601[[WebAPIDemoProject.DTOs.ProductDTO, WebAPIDemoProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPIDemoProject.Controllers.ProductsController",
+    "Method": "Add",
+    "RelativePath": "api/Products/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDTOs",
+        "Type": "WebAPIDemoProject.DTOs.ProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPIDemoProject.Controllers.ProductsController",
+    "Method": "Delete",
+    "RelativePath": "api/Products/Delete",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPIDemoProject.Controllers.ProductsController",
+    "Method": "GetList",
+    "RelativePath": "api/Products/GetList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
